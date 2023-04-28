@@ -1,0 +1,34 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+  ],
+  "type": "VerifiableCredential",
+  "id": "ex:LTBlist",
+  "issuer": "ex:LTBlist",
+  "issuanceDate": "2023-04-28T19:22:46.870Z",
+  "credentialSubject": {
+    "id": "ex:LTBlist",
+    "type": "gx:ServiceOffering",
+    "gx:providedBy": {
+      "id": "did:web:raw.githubusercontent.com:egavard:payload-sign:master"
+    },
+    "gx:policy": "",
+    "gx:termsAndConditions": {
+      "gx:URL": "https://opensource.org/license/apache-2-0/",
+      "gx:hash": ""
+    },
+    "gx:dataAccountExport": {
+      "gx:requestType": "API",
+      "gx:accessType": "digital",
+      "gx:formatType": "application/json"
+    }
+  },
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2023-04-28T19:22:47.160Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:web:raw.githubusercontent.com:egavard:payload-sign:master",
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Dq1qtwRmWzdolTYQbC2hkDwOMGUE_yfjmVvDq074nQgMZPZAS4iIBkyDv50XWnAuDDk4HpIwclLCPw6VQb26nei33XJjCwzFkhCabh2vhQIQjTXXTky4_25K6aBzsidiepI9Cw0lNnWDh6NwRrDUbgA8HhhfaEArZpZQrnmGLtTmdbiZEGp5dzawqwTgyzOw1Q33eSyNOhy11HdFTYfYggCyf80T9mklVVwhSngZIghmYfLN1JMAgz5oCLmM2pyO8CTdlBU9rj4ZW3RgUHUU0WniLoQE10BAmUU5NjDs92TXfBxd5Dt-VwaA4JUI0PXdChIHnJfoqAg-Kkdsn5jVoA"
+  }
+}
