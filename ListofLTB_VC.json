@@ -1,0 +1,27 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://registry.lab.gaia-x.eu//main/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+  ],
+  "type": [
+    "VerifiableCredential"
+  ],
+  "id": "https://compliance.lab.gaia-x.eu/main/credential-offers/f63d97c8-750c-4489-9a42-21638309d967",
+  "issuer": "did:web:compliance.lab.gaia-x.eu:main",
+  "issuanceDate": "2023-04-28T19:02:13.353Z",
+  "expirationDate": "2023-07-27T19:02:13.353Z",
+  "credentialSubject": [
+    {
+      "type": "gx:compliance",
+      "id": "ex:ListofLTB",
+      "integrity": "sha256-c3345e9a87cb813f532bd0cfa6df5543ac397f8bbfcbf81ff7dc68572c492020"
+    }
+  ],
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2023-04-28T19:02:13.995Z",
+    "proofPurpose": "assertionMethod",
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..QCl4RylxxqC1n6axLN5KalKi0RZ2c3UJucIgvRZwZtG1CdL4TLwv8iO58ThrLfJqCbzuIuy6WbA8fzjMnsUi4qQrpCLQg9ux6QBOloAGp4yszds5m1VC8E4pMdf2TdyMb7g0Q1Vcv5eMJR2Y79kb0KD8PCeaZ91C3aKn1mUZam8XedXI2k9VOwKnMAN5A1BRO2KfHWy2s8tFE5dAqWBEbi_D5YZGce5tXjR3pJKQ2jcsfkad-eBombbr7ZKgdhWzZ9HyORRiDE2PjXUZfT3qbGt4StuhH61cTxDm4bgXx-GeSVNChUWPT9tWOL7wVAhgf5X5xzhyuKx-e8Y8-KkjHA",
+    "verificationMethod": "did:web:compliance.lab.gaia-x.eu:main"
+  }
+}
