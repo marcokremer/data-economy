@@ -1,0 +1,27 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://registry.lab.gaia-x.eu//main/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+  ],
+  "type": [
+    "VerifiableCredential"
+  ],
+  "id": "https://compliance.lab.gaia-x.eu/main/credential-offers/10b39eb0-27ca-4279-ae38-33653e3e3324",
+  "issuer": "did:web:compliance.lab.gaia-x.eu:main",
+  "issuanceDate": "2023-04-28T20:02:13.908Z",
+  "expirationDate": "2023-07-27T20:02:13.908Z",
+  "credentialSubject": [
+    {
+      "type": "gx:compliance",
+      "id": "did:web:raw.githubusercontent.com:egavard:payload-sign:master",
+      "integrity": "sha256-457534dc38b7fe5f0d8083d686d3ab5c198aa19e1ac20c7293bc45588596622f"
+    }
+  ],
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2023-04-28T20:02:14.470Z",
+    "proofPurpose": "assertionMethod",
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..cgfrm7i-Y7cqg1FX-jVhDekM1Ycp6UPoRgRylV4wJDgnckMbTcJ7ww_bXL3GBXPf_ip3pJz1mE7UOIxWUZeKBKAf1alv1_6V-krZSHskW1r0T35uZbOgVdrg9N6xGebQ_qXMYHpGfeih3SRPWsCKuquR3e_zzu2PU4MRPoaGoEyf940I3CzONH-ro--mg_KSrMjvCGmZx21py2HcCjREFhNb8BDPHm6wG57EoIR_BDsGzlAuetQQw8Lctd5MRPhrYD37FsjJNvC_wCuqrTOwoEITjtirZh0OzpjpOtYEmyuLACaAgLvc9HL4-E163VxaN4UnZ0ErgyjTn8lkQfMszQ",
+    "verificationMethod": "did:web:compliance.lab.gaia-x.eu:main"
+  }
+}
